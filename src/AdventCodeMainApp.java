@@ -7,6 +7,7 @@ public class AdventCodeMainApp {
 		AdventDay1 adv1 = new AdventDay1();
 		AdventDay2 adv2 = new AdventDay2();
 		AdventDay3 adv3 = new AdventDay3();
+		AdventDay4 adv4 = new AdventDay4();
 	
 		try {
 			
@@ -18,6 +19,9 @@ public class AdventCodeMainApp {
 
 			System.out.println(adv3.rucksackReorganization("src/inputDay3.txt"));
 			System.out.println(adv3.rucksackReorganizationForThreeElves("src/inputDay3.txt"));
+			
+			System.out.println(adv4.campCleanup("src/inputDay4.txt"));
+			System.out.println(adv4.campCleanupPart2("src/inputDay4.txt"));
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
